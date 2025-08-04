@@ -1,0 +1,50 @@
+# 🎉 Realtime Buffet Ordering System
+
+A full-stack real-time web application for **buffet table booking and live food ordering**, built with **ReactJS, NodeJS, MySQL, Socket.io, TypeScript**, and more.
+
+---
+
+## 🚀 Features
+
+### 👨‍🍳 Client Side (User)
+- Realtime buffet table reservation
+- Live dish ordering system
+- Secure authentication via **Access Token**
+- Responsive UI with **Ant Design** & **Bootstrap**
+
+### 🛠 Admin Side
+- Role-based authorization (e.g., admin, staff)
+- Protected routes via **JWT Access + Refresh Tokens**
+- Manage tables, dishes, orders, users
+- Realtime order tracking and notifications
+
+### 🔧 Tech Stack
+
+| Layer        | Tech                          |
+|--------------|-------------------------------|
+| Frontend     | ReactJS, TypeScript, Ant Design, Bootstrap |
+| Backend      | NodeJS (Express), Socket.io   |
+| Database     | MySQL                         |
+| Auth         | JWT (Access & Refresh Tokens) |
+| API Testing  | Postman                       |
+
+---
+
+## 🔐 Security & Authentication
+
+- 🔑 **Access Token** (short-lived) for user & admin API access
+- 🔄 **Refresh Token** (stored securely) for renewing access tokens (admin)
+- 🛡️ **Role-based authorization** to control access to protected routes (e.g., `/admin`, `/staff`)
+- Middleware checks and token validation on backend
+
+---
+
+## 🔄 Realtime Features (Socket.io)
+- Live table booking updates
+- Instant order updates to kitchen/admin dashboard
+- Realtime notifications to clients & admins
+
+---
+
+## 📁 Folder Structure (Simplified)
+
