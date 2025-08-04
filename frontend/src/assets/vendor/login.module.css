@@ -1,0 +1,39 @@
+.form_login_call_food {
+    width: 70% !important;
+    margin: auto !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    background-color: rgba(33, 33, 33 , 0.4) !important;
+    padding: 20px !important;
+}
+
+.goi_mon_login {
+    background-image: url('../img/Anh-gif-dep-binh-yen.gif') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+
+
+input.call-food:focus-visible {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important; 
+}
+
+input.call-food:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+input.call-food {
+    color: #fff !important;
+    outline: none !important;
+    border: none !important;
+    background-color: rgba(48, 46, 46 , 0.9) !important;
+}   

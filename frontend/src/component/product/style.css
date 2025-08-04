@@ -1,0 +1,31 @@
+/* styles.css */
+.ck-editor__editable {
+    /* display: block; */
+  min-height: 300px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+
+.ck-editor__editable ul,
+.ck-editor__editable ol {
+  margin: 10px 0; /* Khoảng cách ngoài */
+  padding-left: 20px; /* Khoảng cách lề trái */
+}
+
+.ck-editor__editable li {
+  font-size: 16px !important; 
+  line-height: 1.5; /* Khoảng cách dòng */
+  margin-bottom: 5px; /* Khoảng cách giữa các mục */
+}
+
+/* Đảm bảo các dấu bullet hoặc số không bị quá nhỏ */
+.ck-editor__editable ul li::before,
+.ck-editor__editable ol li::before {
+  font-size: 16px !important; /* Kích thước của dấu bullet hoặc số */
+}
+
+.ant-upload-list.ant-upload-list-picture-card {
+  justify-content: center;
+  /* width: 100%; */
+}

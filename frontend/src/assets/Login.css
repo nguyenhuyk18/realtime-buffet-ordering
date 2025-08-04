@@ -1,0 +1,105 @@
+.login-admin {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+        width: 50%;
+    /* min-height: 400px; */
+    background-color: rgba(188, 188, 188 , 0.3);
+    /* border-radius: 10%; */
+}
+
+.titleAdmin {
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.loginForm {
+    padding-bottom: 90px;
+    margin: auto;
+    width: 90%;
+
+}
+
+.bodyLogin { 
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/img/hinh-anh-gif-khu-rung-nguyen-sinh.gif');
+    background-repeat: repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+#password {
+    
+    background-color: #fff;
+    border: #333;
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+    /* border-radius: 5px ; */
+    font-size: 20px;
+    margin-bottom: 30px;
+    background-color: rgba(35, 35, 35 ,  0.5);
+    color: #fff;
+}
+
+#password:focus-visible  {
+    outline: none;
+    border: none;
+}
+
+.titleAdmin {
+    font-size: 45px;
+    color: #000;
+    font-weight: bolder;
+}
+
+#username {
+    border: #333;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 5px 10px 5px;
+    margin-bottom: 30px;
+    /* border-radius: 5px ; */
+    background-color: rgba(35, 35, 35, 0.5);
+    color: #fff;
+}
+
+#username:focus-visible  {
+    outline: none;
+    border: none;
+}
+
+button.btnSubmitLogin:hover {
+    opacity: 0.8;
+}
+
+button.btnSubmitLogin {
+    cursor: pointer;
+    width: 100%;
+    background-color: #005eff;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+
+#username::placeholder,
+#password::placeholder {
+    color: rgba(255, 255, 255 , 0.5);
+    font-size: 18px;       /* Cỡ chữ */
+    font-style: italic;    /* Kiểu chữ */
+    opacity: 1;            /* Độ đậm màu */
+    font-weight: bold;
+}
+
+@media (max-width : 650px ) {
+    h1.titleAdmin {
+        font-size: 18px;
+    }
+}
